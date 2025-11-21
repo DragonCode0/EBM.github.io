@@ -148,7 +148,7 @@ function checkAnswer(index) {
                       userDenominator === exercise.result.denominator;
 
     if (isCorrect) {
-        resultMessage.textContent = '✅ Correcte! Bé fet!';
+        resultMessage.textContent = '✅ Correcte! Ben fet!';
         resultMessage.className = 'result-message show correct';
         numeratorInput.classList.add('correct');
         denominatorInput.classList.add('correct');
@@ -214,4 +214,5 @@ document.querySelectorAll('.tab-btn').forEach(btn => {
 document.getElementById('backBtn').addEventListener('click', () => {
     document.getElementById('levelSelector').style.display = 'block';
     document.getElementById('exercisesSection').style.display = 'none';
+
 });
