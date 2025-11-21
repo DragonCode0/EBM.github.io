@@ -22,7 +22,7 @@ body {
 
 /* Capçalera */
 .header {
-    background: linear-gradient(135deg, #ec3764 0%, #95c8fa 100%);
+        background: linear-gradient(135deg, #f3416d 0%, #95c8fa 100%);
     color: white;
     padding: 40px 30px;
     text-align: center;
@@ -324,5 +324,6 @@ body {
     }
 
 }
+
 
 
